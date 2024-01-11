@@ -1,0 +1,99 @@
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  display: inline-block;
+}
+.cultrulvista {
+  margin-top: 0;
+  text-align: left;
+  margin-bottom: 0;
+  display: inline-block;
+}
+header {
+  background-color: #353a40;
+  color: #fff;
+}
+.cultrulvista1 {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+  font-weight: 150;
+  line-height: normal;
+  letter-spacing: 0;
+  text-transform: none;
+  margin: 0;
+}
+.c_admin-text,
+.c_admin-text1 {
+  margin-top: 0;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.c_admin-text {
+  width: 100%;
+  max-width: 200px;
+  min-height: 35px;
+}
+
+.c_admin-text1 {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.c_admin-profile {
+  display: flex;
+  align-items: center;
+}
+
+.c_admin-profile-image {
+  weight: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px; /* Sesuaikan margin sesuai kebutuhan Anda */
+}
+.c_ondes-banner-fx1-rectangle {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: block;
+  max-width: 1444px;
+  border-radius: 12px 12px 12px 12px;
+}
+.padding {
+  padding: 10px;
+}
+/* Add styling for other elements as needed */
+/* Default styles for larger screens */
+.navbar {
+  background-color: #fff;
+}
+
+/* Media query for screens with a maximum width of 760px */
+@media (max-width: 760px) {
+  .navbar {
+    background-color: #ccc; /* Change the background color for smaller screens */
+  }
+
+  /* Additional styles for smaller screens */
+  .c_ondes-banner-fx1-rectangle {
+    width: 100%; /* Make the image responsive within its container */
+  }
+
+  .d-flex {
+    flex-direction: column; /* Stack the elements vertically */
+  }
+
+  .padding {
+    margin-bottom: 15px; /* Add spacing between the items */
+  }
+
+  /* Add any other specific styles for smaller screens here */
+}
